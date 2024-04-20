@@ -1,0 +1,45 @@
+    1  clear
+    2  git clone [200~
+    3  git clone [200~
+    4  git clone https://github.com/Lafudr/HW_10.git
+    5  cd HW_10
+    6  git config --global user.name "Tkach Oleksandr"
+    7  git config --global user.name "Lafudr"
+    8  git config --global user.email "insertrabota@gmail.com"
+    9  touch text_ignore.txt
+   10  ls -l
+   11  vim .gitignore
+   12  ls -l
+   13  git status
+   14  git add*
+   15  git add
+   16  git add .gitignore
+   17  git status
+   18  git commit -m "1commit"
+   19  touch main_test.txt
+   20  ls -l
+   21  git status
+   22  git add main_test.txt
+   23  git status
+   24  git commit -m "2commit"
+   25  git push
+   26  git branch
+   27  git checkout -b develop
+   28  git branch
+   29  touch develop_test.txt
+   30  ls -l
+   31* 
+   32  git status
+   33  git commit -m "3commit"
+   34  git branch
+   35  git status
+   36  vim develop_test.txt
+   37  vim develop_test.txt 
+   38  git status
+   39  git add develop_test.txt 
+   40  git status
+   41  git commit -m "4commit"
+   42  git checkout main
+   43  git merge develop
+   44  git log
+   45  history > command_list.csv
